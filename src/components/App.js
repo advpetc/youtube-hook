@@ -11,7 +11,8 @@ const App = () => {
   }, [videos]);
   return (
     <div className="ui container">
-      <SearchBar onFormSubmit={search} />I have {videos.length} videos.
+      <SearchBar onFormSubmit={search} />
+      我有 {videos.length}个白敬亭的视频.
       <div className="ui grid">
         <div className="ui row">
           <div className="eleven wide column">

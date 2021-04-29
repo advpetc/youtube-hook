@@ -10,7 +10,7 @@ const useVideo = (defaultSearchTerm) => {
   const search = async (term) => {
     const response = await youtube.get("/search", {
       params: {
-        q: term,
+        q: "白敬亭 + " + term,
       },
     });
     setVideos(response.data.items);
